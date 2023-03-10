@@ -15,6 +15,7 @@ df.rename(columns= {'Year':'year', 'GDP per capita':'gdpPercap', 'Population (hi
 #print(list(df.columns))
 
 app = dash.Dash()
+server = app.server
 
 
 year_options = []
